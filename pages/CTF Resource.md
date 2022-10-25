@@ -1,0 +1,50 @@
+- Challenges
+	- JuiceShop
+	-
+	- DONE [https://github.com/mishrasunny174/encrypt-ctf](https://github.com/mishrasunny174/encrypt-ctf)
+		- some challenges have docker image we can host them and setting flag. suggestion.
+		- some challenges did not have docker image, but maybe those can easy packaging as a docker env.
+	-
+	- DONE [https://github.com/theoremoon/cakectf2022-public](https://github.com/theoremoon/cakectf2022-public)
+		- **Suggestion** challenges have suggestions and the flag. also it have docker image.
+		-
+	- DONE [https://github.com/google/google-ctf](https://github.com/google/google-ctf)
+		- Some are work with kctf, but can not know theirs token.
+		-
+	- DONE [https://github.com/BSidesSF/ctf-2022-release](https://github.com/BSidesSF/ctf-2022-release)
+		- Some of the challenges can run in docker, but I did not found their flags.
+		- the other challenge can running in docker, but base image is 404.
+		-
+	- TODO [https://github.com/orangetw/My-CTF-Web-Challenges](https://github.com/orangetw/My-CTF-Web-Challenges)
+		- Can try if we have timing
+	- TODO [https://github.com/blabla1337/skf-labs](https://github.com/blabla1337/skf-labs)
+		- dont know where is the flag
+	- TODO [https://github.com/Himanshukr000/CTF-DOCKERS](https://github.com/Himanshukr000/CTF-DOCKERS)
+		- a lot of challenges in this repo, but need time to try hot to running them.
+		-
+	- TODO [https://github.com/cliffe/SecGen](https://github.com/cliffe/SecGen)
+	-
+	- DONE [https://github.com/Ignitetechnologies/Privilege-Escalation](https://github.com/Ignitetechnologies/Privilege-Escalation)
+		- Not have any challenages
+	-
+	-
+	- [GitHub - P3N9U1N/CTF_Beginners_Git_Challenge: CTF challenge that will teach the basics of git.](https://github.com/P3N9U1N/CTF_Beginners_Git_Challenge)
+		- this is a ctf for git. not security related
+	- [GitHub - CTFTraining/CTFTraining: CTF Training 经典赛题复现环境](https://github.com/CTFTraining/CTFTraining)
+	-
+- CTF Framework
+	- kctf
+-
+- Score Framework
+	- [https://picoctf.org/](https://picoctf.org/)
+	- CTFd
+	- RootTheBox
+	-
+- Platform
+	- [https://www.hackthebox.com/business/business-ctf](https://www.hackthebox.com/business/business-ctf)
+	-
+- Refs
+	- [https://services.google.com/fb/forms/ctfsponsorship/](https://services.google.com/fb/forms/ctfsponsorship/)
+	- [https://blog.ankursundara.com/uiuctf21/](https://blog.ankursundara.com/uiuctf21/)
+	- [https://pwning.owasp-juice.shop/part1/ctf.html](https://pwning.owasp-juice.shop/part1/ctf.html)
+	-
