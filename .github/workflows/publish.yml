@@ -16,6 +16,10 @@ jobs:
         uses: pengx17/logseq-publish@v0.1
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
+      - name: Inject Script Body
+        run: sed -i "s@</body>@$( cat pipeline/inject-body.html | tr '\n' ' ' | sed 's@&@\\&@g' )</body>@"  www/index.html
+      - name: Inject Script Head
+        run: sed -i "s@</head>@$( cat pipeline/inject-head.html | tr '\n' ' ' | sed 's@&@\\&@g' )</head>@"  www/index.html  
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
