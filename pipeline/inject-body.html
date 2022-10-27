@@ -3,9 +3,19 @@
     var container = document.getElementById('main-content-container');
     container.style['flex-wrap'] = 'wrap';
     container.firstChild.style['flex-basis'] = '100%';
-    var element = document.createElement('div');
-    element.classList.add('giscus');
-	container.appendChild(element);
+    var giscus_element = document.createElement('div');
+    giscus_element.classList.add('giscus');
+	container.appendChild(giscus_element);
+    
+    var ads_element = document.createElement('ins')
+    ads_element.setAttribute("class", "adsbygoogle")
+    ads_element.setAttribute("style", "display:block; text-align:center;")
+    ads_element.setAttribute("data-ad-layout", "in-article")
+    ads_element.setAttribute("data-ad-format", "fluid")
+    ads_element.setAttribute("data-ad-client", "ca-pub-1265138627025369")
+    ads_element.setAttribute("data-ad-slot", "2186615068")
+    container.appendChild(ads_element)
+
 </script>
 <!-- 评论系统 -->
 <script
@@ -57,6 +67,9 @@
     }, false);
 </script>
 <!-- 评论系统主题随logseq变化 -->
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <script>
     localStorage.setItem = (f => function setItem() {
         var ret = f.apply(this, arguments);
