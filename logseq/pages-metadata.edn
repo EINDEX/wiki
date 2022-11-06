@@ -30,7 +30,7 @@
   :block/updated-at 1666625567717}
  {:block/name "eindex's wiki",
   :block/created-at 1666625360484,
-  :block/updated-at 1666626865906}
+  :block/updated-at 1667142320265}
  {:block/name "favorites",
   :block/created-at 1666625567717,
   :block/updated-at 1666625567717}
@@ -49,9 +49,15 @@
  {:block/name "later",
   :block/created-at 1666625567717,
   :block/updated-at 1666625567717}
+ {:block/name "macos tips",
+  :block/created-at 1667313440296,
+  :block/updated-at 1667313440296}
  {:block/name "my reading list",
   :block/created-at 1666874771677,
   :block/updated-at 1666874771677}
+ {:block/name "nov 1st, 2022",
+  :block/created-at 1667313420392,
+  :block/updated-at 1667314054296}
  {:block/name "now",
   :block/created-at 1666625567717,
   :block/updated-at 1666625567717}
